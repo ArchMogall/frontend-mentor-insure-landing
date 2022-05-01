@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <script src="navigation.js" defer></script>
+</head>
+
+
+<body>
+  <a class="skip-to-content" href="#main">Skip to content</a>
+  <header class="primary-header container flex">
+    <div>
+      <img class="logo" src="images/logo.svg" alt="Insure logo">
+    </div>
+
+    <!-- Primary navigation -->
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <nav>
+      <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a class="btn" href="#">View plans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Intro section -->
+    <section class="intro bg-dark">
+      <div class="container--wide flex">
+        <div class="intro__img">
+          <img src="images/image-intro-desktop.jpg" alt="">
+        </div>
+        <div class="intro__content container">
+          <div class="grid flow">
+            <h1>Humanizing your insurance.</h1>
+            <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+            <a class="btn btn--dark" href="#">View plans</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features container flow">
+      <div class="features__wrapper flow">
+        <h2>We're different</h2>
+        <ul class="features__list flex">
+          <li class="features__item flow">
+            <img class="features__icon" src="images/icon-snappy-process.svg" alt="" aria-hidden="true">
+            <h3>Snappy Process</h3>
+            <p>Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.</p>
+          </li>
+          <li class="features__item flow">
+            <img class="features__icon" src="images/icon-affordable-prices.svg" alt="" aria-hidden="true">
+            <h3>Affordable Prices</h3>
+            <p>We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+          </li>
+          <li class="features__item flow">
+            <img class="features__icon" src="images/icon-people-first.svg" alt="" aria-hidden="true">
+            <h3>People First</h3>
+            <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.</p>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- CTA -->
+      <aside class="cta container bg-dark flex">
+        <h2>Find out more about how we work</h2>
+        <a class="btn btn--dark" href="#">How we work</a>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="bg-light">
+    <div class="container--wide">
+      <div class="social flex">
+        <div>
+          <img class="logo" src="images/logo.svg" alt="Insure logo">
+        </div>
+        <!-- Social media -->
+        <ul class="social__links flex">
+          <li><a href="#"><img class="social__icon" src="images/icon-facebook.svg" alt="Facebook icon"></a></li>
+          <li><a href="#"><img class="social__icon" src="images/icon-twitter.svg" alt="Twitter icon"></a></li>
+          <li><a href="#"><img class="social__icon" src="images/icon-pinterest.svg" alt="Pinterest icon"></a></li>
+          <li><a href="#"><img class="social__icon" src="images/icon-instagram.svg" alt="Instagram icon"></a></li>
+        </ul>
+      </div>
+
+      <!-- Secondary navigation -->
+      <nav class="secondary-navigation container flex">
+        <div class="secondary-navigation__group flow">
+          <p>Our company</p>
+          <ul class="secondary-navigation__list flow">
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Why Insure?</a></li>
+            <li><a href="#">View plans</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="secondary-navigation__group flow">
+          <p>Help me</p>
+          <ul class="secondary-navigation__list flow">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="secondary-navigation__group flow">
+          <p>Contact</p>
+          <ul class="secondary-navigation__list flow">
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Live chat</a></li>
+          </ul>
+        </div>
+        <div class="secondary-navigation__group flow">
+          <p>Others</p>
+          <ul class="secondary-navigation__list flow">
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Licenses</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
