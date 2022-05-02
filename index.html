@@ -27,7 +27,7 @@
 
     <!-- Primary navigation -->
     <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
-    <nav>
+    <nav aria-labelledby="primary-navigation">
       <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
         <li><a href="#">How we work</a></li>
         <li><a href="#">Blog</a></li>
@@ -101,7 +101,7 @@
       </div>
 
       <!-- Secondary navigation -->
-      <nav class="secondary-navigation container flex">
+      <nav id="secondary-navigation" class="secondary-navigation container flex" aria-labelledby="secondary-navigation">
         <div class="secondary-navigation__group flow">
           <p>Our company</p>
           <ul class="secondary-navigation__list flow">
