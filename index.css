@@ -580,10 +580,6 @@ a.btn--dark {
   .cta h2 {
     flex-basis: 60%;
   }
-
-  .cta .btn {
-    width: fit-content;
-  }
 }
 
 
